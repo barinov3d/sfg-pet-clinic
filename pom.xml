@@ -11,11 +11,6 @@
         <module>pet-clinic-web</module>
     </modules>
 
-    <packaging>pom</packaging>
-
-    <name>sfg-pet-clinic</name>
-    <description>SFG Pet Clinic Project</description>
-
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
