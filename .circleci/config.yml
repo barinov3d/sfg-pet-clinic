@@ -7,3 +7,6 @@ workflows:
   maven_test:
     jobs:
       - maven/test # checkout, build, test, and upload test results
+      - build: # runs not using Workflows must have a `build` job as entry point
+          steps: # a collection of executable commands
+            - run: mvn intall # gets the project dependencies_
